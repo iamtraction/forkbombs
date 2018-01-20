@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 int main(void) {
-  for(;;)
+  white(1)
     fork();
   return 0;
 }
